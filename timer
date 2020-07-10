@@ -1,6 +1,6 @@
 import time
 def timer_min(n):
-    for n >= 2:
+    while n >= 2:
         n = n-1
         time.sleep(60)
         print(f'あと{n}分')
